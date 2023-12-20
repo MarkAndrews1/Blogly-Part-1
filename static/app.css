@@ -1,0 +1,78 @@
+a {
+    color: #52D3D8;
+    font-size: large;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #9af0fd;
+}
+
+a:active{
+    color: white;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+button {
+    margin-top: 10px;
+    background-color: rgb(255, 210, 126);
+    border-radius: 10px;
+    border-style: none;
+    font-size: large
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 230, 184);
+}
+
+button:active{
+    background-color: rgb(255, 239, 239);
+}
+
+p {
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.inputs {
+    font-size: large;
+    border-radius: 10px;
+}
+
+.cancel-btn {
+    font-size: large;
+    padding: 3px;
+    color: black;
+    background-color: rgb(255, 210, 126);
+    border: none;
+    border-radius: 10px;
+}
+
+.cancel-btn:hover{
+    color: black;
+    cursor: pointer;
+    background-color: rgb(255, 230, 184);
+}
+
+.cancel-btn:active{
+    background-color: rgb(255, 239, 239);
+}
+
+#container {
+    background-color: rgba(255, 241, 216, 0.37);
+    border: 5px solid  orange;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 50px;
+    width: 20%;
+    padding: 10px;
+}
